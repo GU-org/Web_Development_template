@@ -6,6 +6,4 @@ var yourName=prompt("Please enter your name !");
 //write you code below
 
 
-
-
 alert("Welcome "+yourName+" to my new software");

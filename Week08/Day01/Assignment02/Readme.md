@@ -8,7 +8,9 @@ You have x days, y weeks, and z months left.
 
 Where x, y and z are replaced with the actual calculated numbers.
 
-
+x=rAge*360
+y=rAge*52
+z=rAge*12;
 
 For this challenge, assume there are 365 days in a year, 52 weeks in a year and 12 months in a year.
 
