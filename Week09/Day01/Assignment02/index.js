@@ -1,16 +1,21 @@
-function fibonacciGenerator (n) {
-//Do NOT change any of the code above 👆
-    
-    //Write your code here:
-    
-    
-    
-    
-    
-    
-    
-    //Return an array of fibonacci numbers starting from 0.
-    
-//Do NOT change any of the code below 👇
+function fabonacciGenerator(n){
+    var outPut=[0,1];
+   
+    if(n===1){
+        outPut=[0];
+    } 
+    else if(n===2){
+        outPut=[0,1];
+    }
+    else {
+        
+        for(let i=2; i<n; i++){
+            outPut.push(outPut[i-2]+outPut[i-1]);
+           
+        }
+    }
+    return outPut;
 }
 
+
+console.log(fabonacciGenerator(20));
