@@ -1,13 +1,9 @@
-function whosPaying(names) {
+function whoPaying(names){
+   
+    let randPersonPosition=Math.floor(Math.random()*names.length);
+    let randPerson=names[randPersonPosition];
     
-/******Don't change the code above*******/
-    
-    //Write your code here.
-    
-    
-    
-    
-
-
-/******Don't change the code below*******/    
+    return randPerson;
 }
+let names=["Ali", "Ahmad","Mahmood"];
+console.log(whoPaying(names)+" is paying for today");

@@ -1,0 +1,1 @@
+alert("Hello Dom from external file");

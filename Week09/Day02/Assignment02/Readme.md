@@ -2,7 +2,7 @@ Assignment 2: Student Counter Dashboard (Solution)
 
 Description
 
-This app tracks the number of students using buttons to increase or decrease the count.
+This app tracks the number of students using buttons to increase or decrease the count. Do not modify the HTML file. Write the JavaScript code to implement the required functionality.
 
 Features:
 
