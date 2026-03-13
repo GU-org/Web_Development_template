@@ -1,6 +1,8 @@
-const btn1=document.querySelector(".dv1 button");
-btn1.addEventListener("click",fnc1 );
+// const btn1=document.querySelectorAll(".dv1 button")[0];
+// btn1.addEventListener("click",fnc1 );
 
+const btn1=document.querySelectorAll(".btn")[0];
+btn1.addEventListener("click", fnc1);
 function fnc1(){
     alert("button 1 is clicked");
 }
