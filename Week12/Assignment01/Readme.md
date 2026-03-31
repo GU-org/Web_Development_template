@@ -6,6 +6,7 @@ Practice:
 Selecting elements with jQuery
 Handling events (click)
 DOM manipulation (append, remove)
+
 🧩 Requirements
 
 Build a simple To-Do List using jQuery:
